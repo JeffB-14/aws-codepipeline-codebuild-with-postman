@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PetStoreAPI" tests="3" time="0.867">
+  <testsuite name="list pets" id="b8e473d9-628f-48e9-ac1b-320d2da2ddff" timestamp="2020-05-13T01:53:19.038Z" tests="3" failures="1" errors="0" time="0.364">
+    <testcase name="Is valid response with json array in body" time="0.364" classname="PetStoreApi"/>
+    <testcase name="Has Content-Type header" time="0.364" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.364" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected 364 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: list pets.]]>
+        <![CDATA[Test description: Is response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 364 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 364 to be below 200
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="add pet" id="205af5cc-6d80-4ac1-8cde-b58ba0d70e0d" timestamp="2020-05-13T01:53:19.038Z" tests="4" failures="1" errors="0" time="0.335">
+    <testcase name="Is valid response with json object in body" time="0.335" classname="PetStoreApi"/>
+    <testcase name="Has Content-Type header" time="0.335" classname="PetStoreApi"/>
+    <testcase name="Is message response equal sucess" time="0.335" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.335" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected 335 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: add pet.]]>
+        <![CDATA[Test description: Is response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 335 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 335 to be below 200
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="get pet by id" id="49c1ed7c-926b-498b-aa5a-75d4608be124" timestamp="2020-05-13T01:53:19.038Z" tests="3" failures="0" errors="0" time="0.168">
+    <testcase name="Is valid response with json object in body" time="0.168" classname="PetStoreApi"/>
+    <testcase name="Has Content-Type header" time="0.168" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.168" classname="PetStoreApi"/>
+  </testsuite>
+</testsuites>
